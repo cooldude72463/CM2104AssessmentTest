@@ -12,6 +12,7 @@ app.get('/SearchPage', function(req, res) {
 });
 
 app.use(express.static(__dirname + '/views'));
+app.use( express.static( "views" ) );
 
 app.listen(8080);
 console.log('8080 is the magic port');
