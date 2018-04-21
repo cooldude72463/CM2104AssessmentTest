@@ -12,7 +12,5 @@ app.get('/SearchPage', function(req, res) {
 });
 
 
-app.use(express.static("CSS/MainPage.css" + '/public'));
-
 app.listen(8080);
 console.log('8080 is the magic port');
